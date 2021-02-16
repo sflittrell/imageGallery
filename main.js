@@ -5,7 +5,7 @@ const btn = document.querySelector('button'); // Creates a variable from the <bu
 const overlay = document.querySelector('.overlay'); // Creates a variable from the <div class='overlay'> element in the html document
 
 /* Looping through images
-// Sets the i variable to one, iterates by adding one to the variable i each loop, and loops while i is less than of equal to 5 (the total number of photos there are) */
+Sets the i variable to one, iterates by adding one to the variable i each loop, and loops while i is less than of equal to 5 (the total number of photos there are) */
 for (let i = 1; i <= 5; i++) { 
     const newImage = document.createElement('img'); // Creates a new <img> element and references it to the new variable newImage
     newImage.setAttribute('src', 'images/pic' + i + '.jpg'); // Sets the src (source) attribute for newImage where i is the picture number listed in the name
